@@ -227,4 +227,14 @@ section{
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
   }
+.links{
+    color: #11999e;
+margin: 2rem 4rem;
+font-size: 5rem;
+display: inline-block;
+text-decoration: none;
+}
+
+.links:hover{
+    color: #EAF6F6;
 }
