@@ -6,6 +6,7 @@ html{
 font-size: 62.5%;
 }
 
+
 body{
     margin: 0 auto 0 auto;
     position: relative;
@@ -15,6 +16,7 @@ body{
 
 }
 
+    
 h1{
     font-family: 'Potta One', cursive,verdana   ;
     margin-top: 0;
@@ -103,7 +105,7 @@ height: 40%;
     margin: 10rem 0 0 0;
     width: 30%;
 }
-
+/* Button From cssbuttongenerator.com*/
 .btn {
     background: #3498db;
     background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
@@ -162,4 +164,39 @@ section{
     color:#11999e;
     font-size: 8rem;
     font-family: Montserrat;
+}
+/* Devices With Maximum Resolution 800pixels*/
+@media only screen and (max-width:801px) {
+   .cloud-1{
+       right: 3rem;
+       width: 25%;
+       top: 2.5rem;
+   }
+
+   .cloud-2{
+   left: 0rem;
+   width: 25%;
+   top: 16rem;
+   }
+    .mountain-1{
+        width: 70%;
+    }
+
+    .prgm-img{
+        width: 70%;
+    }
+.Skills{
+    font-size: 62.5%;
+}
+
+.code-img{
+    margin-top:17rem;
+    margin-left: 0;
+    width: 48%;
+    left: 0rem;
+}
+.Cycling-gif{
+    width: 50%;
+    
+}
 }
