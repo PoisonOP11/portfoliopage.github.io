@@ -68,7 +68,7 @@ height: 40%;
 .prgm-img{
     border-radius: 10rem;
     margin-top: 3rem;
-    width: 25%;
+    width: 43%;
 }
 
 .hello{
@@ -86,7 +86,7 @@ height: 40%;
     border-radius: 110rem;
     float: left;
     left:3rem;
-    top: 169rem;
+    top: 172rem;
 
 }
 
@@ -99,11 +99,20 @@ height: 40%;
     margin: 0;
 }
 
+#lorem_code{
+    text-align: right; 
+    margin: 5rem 0 0 0;
+}
+#lorem_cycle{
+  margin: 20rem 0 0 2rem;
+   text-align: left;
+}
+
 .Cycling-gif{
     float: right;
     border-radius: 100rem;
-    margin: 10rem 0 0 0;
-    width: 30%;
+    margin: 11rem 0 0 0 ;
+    width: 29%;
 }
 /* Button From cssbuttongenerator.com*/
 .btn {
@@ -141,6 +150,9 @@ height: 40%;
     margin: 0;
 }
 
+.get{
+    margin-top:10rem;
+}
 p{
     
     font-size: 3.2rem;
@@ -165,8 +177,9 @@ section{
     font-size: 8rem;
     font-family: Montserrat;
 }
-/* Devices With Maximum Resolution 800pixels*/
-@media only screen and (max-width:801px) {
+/* Code Should Be in 3 resolutions: 601 x 962,360 x 640,1024 x 768 */
+/* Devices With Maximum Resolution 600pixels*/
+@media only screen and (max-width:600px) {
    .cloud-1{
        right: 3rem;
        width: 25%;
@@ -179,7 +192,7 @@ section{
    top: 16rem;
    }
     .mountain-1{
-        width: 70%;
+        width: 100%;
     }
 
     .prgm-img{
@@ -190,33 +203,66 @@ section{
 }
 
 .code-img{
-    margin-top:17rem;
-    margin-left: 0;
-    width: 48%;
-    left: 0rem;
+    margin-top:8rem;
+    width: 45%;
+    left: 15rem;
 }
 .Cycling-gif{
     width: 50%;
     
 }
 
-.btn {
-    background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-    background-image: -o-linear-gradient(top, #3498db, #2980b9);
-    background-image: linear-gradient(to bottom, #3498db, #2980b9);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 3rem;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 6rem;
-    padding: 1.3rem 3.2rem 1.5rem 3.5rem;
-    text-decoration: none;
-    margin: 0 0 10rem 0; 
-  }
+#lorem_code{
+    text-align: center;
+    margin-top:200px;
+}
+}
+
+/* Devices With Maximum Resolution 500pixels*/
+@media only screen and (max-width:500px) {
+    .cloud-1{
+        right: 3rem;
+        width: 25%;
+        top: 2.5rem;
+    }
+ 
+    .cloud-2{
+    left: 0rem;
+    width: 25%;
+    top: 21rem;
+    }
+     .mountain-1{
+         width: 100%;
+     }
+ 
+     .prgm-img{
+         width: 100%;
+     }
+ .Skills{
+     font-size: 62.5%;
+ }
+ 
+ .Cycling-gif{
+     width: 50%;
+     
+ }
+
+h1{
+    font-size: 5rem;
+}
+#jokes{
+    font-size: 3rem;
+}
+
+.code-img{
+     
+    margin-left: 0;
+    width: 45%;
+    left: 19rem;
+    top: 136rem;
+}
+
+  
   
   .btn:hover {
     background: #3cb0fd;
