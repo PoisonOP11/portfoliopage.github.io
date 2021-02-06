@@ -180,6 +180,10 @@ section{
 /* Code Should Be in 3 resolutions: 601 x 962,360 x 640,1024 x 768 */
 /* Devices With Maximum Resolution 600pixels*/
 @media only screen and (max-width:600px) {
+.html{
+    font-size:62.5%;
+}
+
    .cloud-1{
        right: 3rem;
        width: 25%;
@@ -202,11 +206,6 @@ section{
     font-size: 62.5%;
 }
 
-.code-img{
-    margin-top:8rem;
-    width: 45%;
-    left: 15rem;
-}
 .Cycling-gif{
     width: 50%;
     
@@ -215,6 +214,13 @@ section{
 #lorem_code{
     text-align: center;
     margin-top:200px;
+}
+
+.code-img{
+    width: 50%;
+    left: 10rem;
+    font-size: 62.5%;
+    top: 160rem;
 }
 }
 
@@ -254,13 +260,7 @@ h1{
     font-size: 3rem;
 }
 
-.code-img{
-     
-    margin-left: 0;
-    width: 45%;
-    left: 19rem;
-    top: 136rem;
-}
+
 
   
   
