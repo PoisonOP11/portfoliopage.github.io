@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
+*{
+    box-sizing: border-box;
+    }
 
 html{
 font-size: 62.5%;
@@ -248,12 +251,6 @@ section{
      font-size: 62.5%;
  }
  
-.code-img{
-    width: 50%;
-    left: 10rem;
-    font-size: 62.5%;
-    top: 160rem;
-}
  .Cycling-gif{
      width: 50%;
      
